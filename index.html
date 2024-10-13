@@ -10,6 +10,7 @@
             flex-direction: column;
             align-items: center;
             background-color: whitesmoke;
+            border: 10px solid rgb(186, 186, 186);
         }
         header{
             width: 70%;
@@ -22,10 +23,20 @@
             flex-direction: column;
             align-items: center;
         }
+        p{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         img{
             width: 50px;
             height: 50px;
+            margin-right: 20px;
         }
+        .list{
+            font-style: italic;
+        }
+       
     </style>
 </head>
 <body>
@@ -44,17 +55,16 @@
                     <h3>なんのためのサイト？</h3>
                     <p>これはジョージ氏が作った非常に試験的なサイト。<br>
                     試験的なのでなんの意味もないです。<br>
-                    とりあえず、こういうコード書いとけばHTML分かるようになるっしょ！という非常に軽い考えで誕生しました</p>
+                    とりあえず、こういうコード書いとけばHTML分かるようになるっしょ！<br>
+                    という非常に軽い考えで誕生しました</p>
                 </article>
                 <article class="article2">
                     <h1>Where am I?</h1>
                     <article class="list">
                         <h3>私はここに...</h3>
-                        <ul>
-                            <li>youtube</li>
-                            <li>github</li>
-                            <li>bluesky</li>
-                        </ul>
+                        <p class="list">youtube</p>
+                        <p class="list">github</p>
+                        <p class="list">bluesky</p>
                         <p>フォローしてくれると、喜んじゃうので、フォローお願いします(o*。_。)oペコッ</p>
                     </article>
                 </article>
